@@ -1,0 +1,132 @@
+$lightcolor: #4a4a4a;
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    img {
+        width: 100px;
+        cursor: pointer;
+
+    }
+}
+
+.menu-bar {
+    ul {
+        display: flex;
+        gap: 40px;
+
+        li {
+            list-style-type: none;
+            color: $lightcolor;
+            font-size: 14px;
+            font-weight: 400;
+            cursor: pointer;
+
+            &:hover {
+                color: #638eff;
+            }
+        }
+
+        .menu-btn {
+            color: #638eff;
+            font-weight: 600;
+        }
+    }
+}
+
+.header-bar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    margin-top: 70px;
+
+}
+
+
+.main-card {
+
+    display: flex;
+    width: 100%;
+    background-color: white;
+    min-height: 430px;
+    margin-top: 30px;
+    box-shadow: 0 21px 33px 0 rgba(0, 0, 0, .1);
+
+    .side-bar {
+        padding: 25px;
+        background: #f8f8f8;
+
+        .file-img {
+            margin-top: 50px;
+            cursor: pointer;
+        }
+        .text-img{
+            cursor: pointer;
+
+        }
+    }
+
+}
+
+.card-content {
+    width: 100%;
+    padding: 0px 50px;
+    border: 1px solid #fff;
+    .text-footer{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+     }
+
+     .text-section{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+         .textarea {
+             width: 100%;
+             flex: 1;
+         }
+         
+         .button{
+            .links{
+              flex: 1;
+            }
+            span{
+                font-size: 16px;
+                margin-right: 55px;
+            }
+            padding: 40px 0px;
+            text-align: right;
+            cursor: pointer;
+           
+         }
+     }
+
+   
+
+    h1 {
+        font-size: 48px;
+        font-weight: 700;
+        line-height: .85;
+        letter-spacing: .6px;
+        color: #000;
+        margin-bottom: 28px;
+    }
+}
+
+.files-content{
+    height: 90%;
+    width: 100%;
+}
